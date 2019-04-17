@@ -1,4 +1,4 @@
-# RC Value
+# RC Value &middot; [![Build Status](https://travis-ci.org/beizhedenglong/rc-value.svg?branch=master)](https://travis-ci.org/beizhedenglong/rc-value)
 Make React component switch between [`Controlled Component`](https://reactjs.org/docs/forms.html#controlled-components) and [`Uncontrolled Component`](https://reactjs.org/docs/uncontrolled-components.html) easily.
 
 ## Installation
