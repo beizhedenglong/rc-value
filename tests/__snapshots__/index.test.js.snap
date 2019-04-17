@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Value Controlled Component 1`] = `
+<div>
+  <button
+    data-testid="button"
+  >
+    false
+  </button>
+</div>
+`;
+
+exports[`Value Uncontrolled Component 1`] = `
+<div>
+  <button
+    data-testid="button"
+  >
+    false
+  </button>
+</div>
+`;
+
+exports[`useValue Controlled Component 1`] = `
+<div>
+  <button
+    data-testid="button"
+  >
+    false
+  </button>
+</div>
+`;
+
+exports[`useValue Uncontrolled Component 1`] = `
+<div>
+  <button
+    data-testid="button"
+  >
+    false
+  </button>
+</div>
+`;
+
+exports[`withValue Controlled Component 1`] = `
+<div>
+  <button
+    data-testid="button"
+  >
+    false
+  </button>
+</div>
+`;
+
+exports[`withValue Uncontrolled Component 1`] = `
+<div>
+  <button
+    data-testid="button"
+  >
+    false
+  </button>
+</div>
+`;

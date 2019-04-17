@@ -1,0 +1,49 @@
+{
+  "name": "rc-value",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook",
+    "build": "microbundle -o dist/ --sourcemap false --compress false",
+    "dev": "microbundle watch -o dist/ --sourcemap false --compress false",
+    "test": "jest --coverage --config=jest.config.js",
+    "report-coverage": "cat ./coverage/lcov.info | coveralls"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-storysource": "^5.0.9",
+    "@storybook/addons": "^5.0.9",
+    "@storybook/react": "^5.0.9",
+    "@types/jest": "^23.3.10",
+    "@types/storybook__react": "^4.0.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.5",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "next",
+    "jest": "^23.6.0",
+    "jest-dom": "^3.0.0",
+    "microbundle": "^0.6.0",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-testing-library": "^5.9.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
