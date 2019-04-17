@@ -4,6 +4,9 @@ Make React component switch between [`Controlled Component`](https://reactjs.org
 ## Installation
 `yarn add rc-value` or `npm install rc-value --save`
 
+## Live Demos
+You can find some demos at [`storybook`](https://beizhedenglong.github.io/rc-value/).
+
 ## Usage
 
 ### `Value`
