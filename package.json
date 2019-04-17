@@ -8,6 +8,7 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
     "build": "microbundle -o dist/ --sourcemap false --compress false",
     "dev": "microbundle watch -o dist/ --sourcemap false --compress false",
     "test": "jest --coverage --config=jest.config.js",
@@ -21,6 +22,7 @@
     "@storybook/addon-storysource": "^5.0.9",
     "@storybook/addons": "^5.0.9",
     "@storybook/react": "^5.0.9",
+    "@storybook/storybook-deployer": "^2.8.1",
     "@types/jest": "^23.3.10",
     "@types/storybook__react": "^4.0.1",
     "babel-core": "^7.0.0-bridge.0",
