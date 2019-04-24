@@ -9,8 +9,8 @@
   "scripts": {
     "storybook": "start-storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "microbundle -o dist/ --sourcemap false --compress false",
-    "dev": "microbundle watch -o dist/ --sourcemap false --compress false",
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "test": "jest --coverage --config=jest.config.js",
     "report-coverage": "cat ./coverage/lcov.info | coveralls"
   },
